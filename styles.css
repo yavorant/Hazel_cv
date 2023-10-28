@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Forum', serif;
+}
+
+.hero {
+  background-color: coral;
+  min-height: 90vh;
+  display: inline-block;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: antiquewhite;
+  padding: 24px 32px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: antiquewhite;
+  font-size: 1.5rem;
+  padding-right: 24px;
+}
+
+.navbar p {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.navbar .contact {
+  background-color: antiquewhite;
+  color: coral;
+  padding: 16px 24px;
+  text-decoration: none;
+  border-radius: 100rem;
+}
+
+.navbar .contact:hover {
+  opacity: 0.8;
+}
+
+.hero-content {
+  padding: 0 15%;
+  color: antiquewhite;
+}
+
+.tagline {
+  font-size: 4.5rem;
+}
+
+.two-column {
+  font-size: 2rem;
+}
+
+.two-column p {
+  width: 50%;
+  float: left;
+}
+
+.two-column .skills {
+  width: 50%;
+  float: left;
+  list-style: none;
+  padding-left: 0;
+}
+
+.two-column .skills li {
+  width: 50%;
+  float: left;
+  font-size: 1.25rem;
+  margin: 8px 0;
+}
