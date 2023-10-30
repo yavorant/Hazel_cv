@@ -3,6 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Forum', serif;
+  background-color: antiquewhite;
 }
 
 .hero {
@@ -57,7 +58,7 @@ body {
   font-size: 2rem;
 }
 
-.two-column p {
+.two-column > p {
   width: 50%;
   float: left;
 }
@@ -74,4 +75,54 @@ body {
   float: left;
   font-size: 1.25rem;
   margin: 8px 0;
+}
+
+.blog-section {
+  padding: 64px 0;
+  display: inline-block;
+}
+
+.blog-content {
+  padding: 0 15%;
+}
+
+.two-column .blog-post {
+  width: 50%;
+  /* background-color: blue; */
+  float: left;
+}
+
+.blog-title {
+  font-size: 1.5rem;
+}
+
+.blog-text {
+  font-size: 1rem;
+}
+
+.blog-date {
+  font-size: 0.9rem;
+  color: grey;
+}
+
+footer {
+  background-color: black;
+  color: antiquewhite;
+  padding: 3rem 1rem 1rem;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.footer-content svg {
+  width: 3rem;
+  height: 3rem;
+  fill: antiquewhite;
+  /* stroke: orange; */
+  margin: 0 0.5rem;
+}
+
+svg:hover {
+  fill: coral;
 }
